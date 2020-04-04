@@ -23,7 +23,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: $WORKSHOP TOKEN
   local_dir: dist/bitcoin
   edge: true
   on:
